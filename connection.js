@@ -1,7 +1,7 @@
 const algosdk = require('algosdk')
-const token = "e7bfc34dd5fbf4455d1106b8c4d3b9711ee2818d2e7e440706612e9417f32976";
+const token = "e2960c313568cd4df3f5842c17f5e0624caa5c2d97e341cf1b29163d2eb295d9";
 const server = "http://127.0.0.1";
-const port = 50722;
+const port = 52001;
 const client = new algosdk.Algod(token, server, port);
 
 (async () => {
@@ -9,3 +9,4 @@ const client = new algosdk.Algod(token, server, port);
 })().catch(e => {
     console.log(e);
 });
+
